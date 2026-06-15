@@ -183,8 +183,7 @@ Add your repository link here.
 ---
 
 ## 🌐 Live Demo
-
-Add your Netlify/Vercel deployment link here.
+https://loomgazer.netlify.app/
 
 ---
 
