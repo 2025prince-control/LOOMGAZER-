@@ -1,6 +1,6 @@
 import "./ProductionQueue.css";
 import { useState } from "react";
-import queueData from "../../data/ProductionData";
+import queueData from "../../data/productionData";
 
 function ProductionQueue() {
 
