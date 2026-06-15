@@ -1,5 +1,5 @@
 import "./App.css";
-import Machines from "./components/Machines/Machines";
+import Machines from "./components/machines/Machines";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import MaterialList from "./components/MaterialList/MaterialList";
