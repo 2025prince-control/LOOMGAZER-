@@ -95,7 +95,6 @@ Build a dashboard to monitor a textile factory, showing the status of raw materi
 ### Frontend
 - React JS
 - JavaScript (ES6)
-- HTML5
 - CSS3
 
 ### Development Tools
@@ -172,13 +171,13 @@ This project demonstrates the practical implementation of:
 
 **Prince Yadav**
 
-B.Tech Computer Science Engineering (AI & ML)
+B.Tech Computer Science Engineering 
 
 ---
 
 ## 🔗 GitHub Repository
 
-Add your repository link here.
+https://github.com/2025prince-control/LOOMGAZER-.git
 
 ---
 
@@ -186,4 +185,8 @@ Add your repository link here.
 https://loomgazer.netlify.app/
 
 ---
+
+## License
+
+This project is developed for academic and educational purposes only as part of a ReactJS case study project.
 
