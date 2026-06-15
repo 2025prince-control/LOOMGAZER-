@@ -1,0 +1,434 @@
+.planner-section {
+  padding: 100px 5%;
+  background: #eef2ff;
+}
+
+/* HEADING */
+
+.planner-heading-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.planner-heading {
+  background: #ff6f0f;
+  color: #0f172a;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 22px 50px;
+  border-radius: 999px;
+  box-shadow:
+    0 15px 35px rgba(255, 111, 15, .25);
+}
+
+/* DESCRIPTION */
+
+.planner-desc {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.15rem;
+  margin-bottom: 35px;
+}
+
+/* BUTTON */
+
+.planner-btn {
+
+  display: block;
+
+  margin: auto;
+
+  padding: 18px 40px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(135deg,
+      #ff6f0f,
+      #ea580c);
+
+  color: white;
+
+  font-size: 1rem;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition: .3s;
+
+  box-shadow:
+    0 15px 35px rgba(255,
+      111,
+      15,
+      .25);
+}
+
+.planner-btn:hover {
+
+  transform:
+    translateY(-4px);
+}
+
+/* MAIN RESULT BOX */
+
+.result-box {
+
+  max-width: 1100px;
+
+  margin: 50px auto 0;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 20px 50px rgba(15,
+      23,
+      42,
+      .08);
+}
+
+/* SUMMARY CARD */
+
+.summary-card {
+
+  background:
+    linear-gradient(135deg,
+      #0f172a,
+      #1e293b);
+
+  color: white;
+
+  border-radius: 25px;
+
+  padding: 35px;
+
+  margin-bottom: 50px;
+}
+
+.summary-card h3 {
+
+  text-align: center;
+
+  font-size: 2rem;
+
+  margin-bottom: 30px;
+
+  color: #f8fafc;
+}
+
+.summary-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.summary-grid div {
+
+  background:
+    rgba(255,
+      255,
+      255,
+      .08);
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  text-align: center;
+}
+
+.summary-grid span {
+
+  display: block;
+
+  color: #cbd5e1;
+
+  margin-bottom: 8px;
+}
+
+.summary-grid h4 {
+
+  font-size: 1.4rem;
+
+  color: #ff6f0f;
+}
+
+/* ROUTE FLOW */
+
+.route-flow {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+/* STEP CARD */
+
+.route-step {
+
+  width: 100%;
+
+  max-width: 850px;
+
+  background: white;
+
+  border-left: 8px solid #ff6f0f;
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  box-shadow:
+    0 12px 25px rgba(0,
+      0,
+      0,
+      .06);
+
+  transition: .3s;
+}
+
+.route-step:hover {
+
+  transform:
+    translateY(-5px);
+
+  box-shadow:
+    0 20px 40px rgba(255,
+      111,
+      15,
+      .15);
+}
+
+/* STEP BADGE */
+
+.step-badge {
+
+  display: inline-block;
+
+  padding: 8px 18px;
+
+  background: #fff7ed;
+
+  color: #ea580c;
+
+  border-radius: 999px;
+
+  font-weight: 800;
+
+  margin-bottom: 15px;
+}
+
+.route-step h4 {
+
+  color: #0f172a;
+
+  font-size: 1.8rem;
+
+  margin-bottom: 15px;
+}
+
+.route-step p {
+
+  color: #475569;
+
+  line-height: 1.8;
+
+  margin-bottom: 20px;
+}
+
+/* MACHINE INFO */
+
+.machine-info {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.machine-info span {
+
+  background: #f8fafc;
+
+  padding: 10px 15px;
+
+  border-radius: 10px;
+
+  color: #334155;
+
+  font-size: .95rem;
+}
+
+/* TIME BADGE */
+
+.time-badge {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  background: #dcfce7;
+
+  color: #15803d;
+
+  border-radius: 999px;
+
+  font-weight: 800;
+}
+
+/* TIMELINE */
+
+.route-line {
+
+  width: 4px;
+
+  height: 60px;
+
+  background:
+    linear-gradient(to bottom,
+      #ff6f0f,
+      #2563eb);
+
+  position: relative;
+}
+
+.route-dot {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform:
+    translate(-50%,
+      -50%);
+
+  width: 16px;
+
+  height: 16px;
+
+  border-radius: 50%;
+
+  background: #ff6f0f;
+}
+
+/* TOTAL BOX */
+
+.total-time {
+
+  margin-top: 50px;
+
+  text-align: center;
+
+  background:
+    linear-gradient(135deg,
+      #16a34a,
+      #22c55e);
+
+  color: white;
+
+  padding: 35px;
+
+  border-radius: 25px;
+
+  box-shadow:
+    0 20px 40px rgba(34,
+      197,
+      94,
+      .25);
+}
+
+.total-time h3 {
+
+  color: white;
+
+  margin-bottom: 15px;
+}
+
+.total-time h2 {
+
+  font-size: 3rem;
+
+  margin-bottom: 10px;
+}
+
+.total-time p {
+
+  opacity: .95;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+
+  .summary-grid {
+
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+  .machine-info {
+
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:768px) {
+
+  .planner-heading {
+
+    font-size: 2rem;
+
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .planner-heading-wrapper {
+
+    justify-content: center;
+  }
+
+  .result-box {
+
+    padding: 20px;
+  }
+
+  .summary-grid {
+
+    grid-template-columns: 1fr;
+  }
+
+  .route-step {
+
+    padding: 20px;
+  }
+
+  .route-step h4 {
+
+    font-size: 1.4rem;
+  }
+
+  .total-time h2 {
+
+    font-size: 2rem;
+  }
+}

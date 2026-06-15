@@ -1,0 +1,391 @@
+.map-section {
+
+  padding: 100px 5%;
+
+  background:
+    linear-gradient(135deg,
+      #f8fafc,
+      #eef2ff,
+      #fff7ed);
+}
+
+/* Heading */
+
+.map-heading-wrapper {
+
+  display: flex;
+
+  justify-content: flex-start;
+
+  margin-bottom: 15px;
+}
+
+.map-heading {
+
+  display: inline-block;
+
+  padding: 18px 45px;
+
+  background: #f97316;
+
+  color: #0f172a;
+
+  font-size: 2.5rem;
+
+  font-weight: 900;
+
+  border-radius: 999px;
+
+  box-shadow:
+    0 15px 35px rgba(249, 115, 22, .25);
+}
+
+.map-subtitle {
+
+  padding-left: 10px;
+
+  color: #64748b;
+
+  font-size: 1.05rem;
+
+  margin-bottom: 70px;
+}
+
+/* Pipeline */
+
+.factory-map {
+
+  position: relative;
+
+  max-width: 1300px;
+
+  margin: auto;
+}
+
+.factory-map::before {
+
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+
+  top: 0;
+
+  width: 6px;
+
+  height: 100%;
+
+  background:
+    linear-gradient(to bottom,
+      #f97316,
+      #2563eb);
+
+  transform:
+    translateX(-50%);
+
+  border-radius: 20px;
+}
+
+/* Block */
+
+.pipeline-block {
+
+  position: relative;
+
+  margin-bottom: 70px;
+}
+
+.left-node .node {
+
+  margin-right: auto;
+
+  width: 48%;
+}
+
+.right-node .node {
+
+  margin-left: auto;
+
+  width: 48%;
+}
+
+/* Card */
+
+.node {
+
+  position: relative;
+
+  display: flex;
+
+  gap: 25px;
+
+  align-items: center;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 28px;
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, .08);
+
+  border: 1px solid rgba(249, 115, 22, .12);
+
+  transition: .35s;
+}
+
+.node:hover {
+
+  transform:
+    translateY(-8px);
+
+  box-shadow:
+    0 25px 55px rgba(37, 99, 235, .15);
+}
+
+/* Step Number */
+
+.node::before {
+
+  content: attr(data-step);
+
+  position: absolute;
+
+  top: -18px;
+
+  right: 25px;
+
+  width: 55px;
+
+  height: 55px;
+
+  border-radius: 50%;
+
+  background: #f97316;
+
+  color: white;
+
+  font-weight: 900;
+
+  font-size: 1rem;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-shadow:
+    0 10px 25px rgba(249, 115, 22, .35);
+}
+
+/* Image */
+
+.node-image img {
+
+  width: 260px;
+
+  height: 190px;
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, .1);
+}
+
+/* Content */
+
+.node-content {
+
+  flex: 1;
+}
+
+.machine-tag {
+
+  display: inline-block;
+
+  background: #fff7ed;
+
+  color: #f97316;
+
+  padding: 7px 14px;
+
+  border-radius: 999px;
+
+  font-size: .8rem;
+
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+.node-content h3 {
+
+  color: #0f172a;
+
+  font-size: 2rem;
+
+  font-weight: 900;
+
+  margin-bottom: 15px;
+}
+
+.node-content p {
+
+  color: #64748b;
+
+  line-height: 1.8;
+
+  font-size: .98rem;
+
+  margin-bottom: 20px;
+}
+
+/* Stats */
+
+.machine-stats {
+
+  display: flex;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+.stat-box {
+
+  min-width: 130px;
+
+  background: #f8fafc;
+
+  border: 1px solid #e2e8f0;
+
+  padding: 14px;
+
+  border-radius: 14px;
+}
+
+.stat-box span {
+
+  display: block;
+
+  color: #64748b;
+
+  font-size: .8rem;
+
+  margin-bottom: 5px;
+}
+
+.stat-box strong {
+
+  color: #0f172a;
+
+  font-size: 1rem;
+}
+
+/* Connector */
+
+.pipeline-connector {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 15px;
+}
+
+.connector-dot {
+
+  width: 22px;
+
+  height: 22px;
+
+  border-radius: 50%;
+
+  background: #f97316;
+
+  border: 4px solid white;
+
+  box-shadow:
+    0 0 0 6px rgba(249, 115, 22, .15);
+}
+
+.connector-line {
+
+  width: 5px;
+
+  height: 70px;
+
+  background:
+    linear-gradient(to bottom,
+      #f97316,
+      #2563eb);
+
+  border-radius: 20px;
+}
+
+/* Responsive */
+
+@media(max-width:1000px) {
+
+  .factory-map::before {
+
+    display: none;
+  }
+
+  .left-node .node,
+  .right-node .node {
+
+    width: 100%;
+
+    margin: auto;
+  }
+
+  .pipeline-connector {
+
+    display: none;
+  }
+}
+
+@media(max-width:768px) {
+
+  .map-heading {
+
+    font-size: 1.8rem;
+
+    padding: 15px 30px;
+  }
+
+  .node {
+
+    flex-direction: column;
+  }
+
+  .node-image img {
+
+    width: 100%;
+
+    height: 220px;
+  }
+
+  .node-content {
+
+    text-align: center;
+  }
+
+  .machine-stats {
+
+    justify-content: center;
+  }
+
+  .node-content h3 {
+
+    font-size: 1.5rem;
+  }
+}

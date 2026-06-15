@@ -1,0 +1,287 @@
+.undo-section {
+
+  padding: 100px 5%;
+
+  background:
+    linear-gradient(135deg,
+      #f8fafc,
+      #eef2ff,
+      #fff7ed);
+}
+
+/* Heading */
+
+.undo-heading-wrapper {
+
+  display: flex;
+
+  justify-content: flex-start;
+
+  margin-bottom: 20px;
+}
+
+.undo-heading {
+
+  display: inline-block;
+
+  background: #f97316;
+
+  color: #111827;
+
+  padding: 18px 50px;
+
+  border-radius: 999px;
+
+  font-size: 2.3rem;
+
+  font-weight: 900;
+
+  box-shadow:
+    0 15px 35px rgba(249, 115, 22, .25);
+}
+
+.undo-desc {
+
+  color: #6b7280;
+
+  font-size: 1.05rem;
+
+  margin-bottom: 50px;
+
+  padding-left: 10px;
+}
+
+/* Grid */
+
+.undo-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(320px, 1fr));
+
+  gap: 30px;
+
+  max-width: 1300px;
+
+  margin: auto;
+}
+
+/* Card */
+
+.undo-card {
+
+  background: white;
+
+  border-radius: 28px;
+
+  padding: 25px;
+
+  border: 1px solid rgba(249, 115, 22, .15);
+
+  box-shadow:
+    0 15px 40px rgba(17, 24, 39, .08);
+
+  transition: .35s;
+}
+
+.undo-card:hover {
+
+  transform:
+    translateY(-8px);
+
+  box-shadow:
+    0 25px 50px rgba(249, 115, 22, .18);
+
+  border-color: #fb923c;
+}
+
+/* Machine Name */
+
+.undo-card h3 {
+
+  text-align: center;
+
+  color: #111827;
+
+  font-size: 2rem;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+}
+
+/* Settings Box */
+
+.setting-box {
+
+  background: #f9fafb;
+
+  border-left: 5px solid #f97316;
+
+  border-radius: 18px;
+
+  padding: 18px;
+
+  margin-bottom: 18px;
+}
+
+.setting-row {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 12px 0;
+
+  border-bottom:
+    1px solid #e5e7eb;
+}
+
+.setting-row:last-child {
+
+  border-bottom: none;
+}
+
+.setting-row span {
+
+  color: #6b7280;
+
+  font-size: 1rem;
+}
+
+.setting-row strong {
+
+  color: #111827;
+
+  font-size: 1.05rem;
+
+  font-weight: 800;
+}
+
+/* Buttons */
+
+.btn-group {
+
+  display: flex;
+
+  gap: 12px;
+
+  margin-bottom: 15px;
+}
+
+.change-btn {
+
+  flex: 1;
+
+  padding: 13px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #f97316;
+
+  color: white;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.change-btn:hover {
+
+  background: #ea580c;
+
+  transform:
+    translateY(-3px);
+}
+
+.undo-btn {
+
+  flex: 1;
+
+  padding: 13px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #111827;
+
+  color: white;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.undo-btn:hover {
+
+  background: #1f2937;
+
+  transform:
+    translateY(-3px);
+}
+
+/* History */
+
+.history-box {
+
+  text-align: center;
+
+  background: #fff7ed;
+
+  color: #f97316;
+
+  border: 1px solid #fed7aa;
+
+  padding: 14px;
+
+  border-radius: 14px;
+
+  font-weight: 800;
+
+  font-size: 1rem;
+}
+
+/* Responsive */
+
+@media(max-width:1000px) {
+
+  .undo-grid {
+
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:768px) {
+
+  .undo-section {
+
+    padding: 80px 20px;
+  }
+
+  .undo-heading {
+
+    font-size: 1.8rem;
+
+    padding: 15px 30px;
+  }
+
+  .undo-card h3 {
+
+    font-size: 1.5rem;
+  }
+
+  .btn-group {
+
+    flex-direction: column;
+  }
+}
