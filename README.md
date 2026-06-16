@@ -105,6 +105,95 @@ Build a dashboard to monitor a textile factory, showing the status of raw materi
 
 ---
 
+## 📸 Project Screenshots
+
+### 🏠 Landing Page 
+
+<img width="1470" height="834" alt="Screenshot 2026-06-16 at 9 03 22 AM" src="https://github.com/user-attachments/assets/30638911-42f5-481e-bb80-442fc5328f7d" />
+
+
+The landing page introduces the LoomGazer Panel and provides an overview of the Smart Textile Factory Management Dashboard.
+
+---
+
+### 🧵 Material Quality List
+
+[Insert Material Quality List Screenshot Here]
+
+Displays textile material batches, quality grades, GSM values, approval status, and search functionality.
+
+---
+
+### ⚙️ Machine Monitoring
+
+[Insert Machine Monitoring Screenshot Here]
+
+Monitors machine status, efficiency, and power usage with real-time status updates.
+
+---
+
+### 📋 Production Log Queue
+
+[Insert Production Queue Screenshot Here]
+
+Implements FIFO queue management for tracking and processing production batches.
+
+---
+
+### 🔍 Equipment ID Checker
+
+[Insert Equipment ID Checker Screenshot Here]
+
+Allows instant verification of equipment IDs against the factory registry.
+
+---
+
+### ↩️ Machine Setting Undo System
+
+[Insert Machine Undo Screenshot Here]
+
+Tracks machine setting changes and supports undo functionality using stack logic.
+
+---
+
+### 📈 Market Value Sorter
+
+[Insert Market Value Sorter Screenshot Here]
+
+Ranks textile batches according to industrial market value using sorting concepts.
+
+---
+
+### 🏭 Factory Map Hub
+
+[Insert Factory Map Hub Screenshot Here]
+
+Visualizes factory workflow, machine connectivity, and textile production pipeline.
+
+---
+
+### 🚀 Quickest Processing Planner
+
+[Insert Processing Planner Screenshot Here]
+
+Displays the most efficient processing route with minimum production time.
+
+---
+
+### ⚡ Power Load Balancer
+
+[Insert Power Load Balancer Screenshot Here]
+
+Analyzes machine load distribution and recommends optimized power allocation.
+
+---
+
+### 📄 Footer Section
+
+[Insert Footer Screenshot Here]
+
+Displays project information, factory modules, and system overview.
+
 ## 📂 Project Structure
 
 ```text
