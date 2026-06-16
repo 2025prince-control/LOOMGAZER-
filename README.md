@@ -118,7 +118,8 @@ The landing page introduces the LoomGazer Panel and provides an overview of the 
 
 ### 🧵 Material Quality List
 
-[Insert Material Quality List Screenshot Here]
+<img width="1416" height="620" alt="Screenshot 2026-06-16 at 9 04 13 AM" src="https://github.com/user-attachments/assets/6b666828-676a-415f-894a-2a073c16782a" />
+
 
 Displays textile material batches, quality grades, GSM values, approval status, and search functionality.
 
@@ -126,7 +127,8 @@ Displays textile material batches, quality grades, GSM values, approval status, 
 
 ### ⚙️ Machine Monitoring
 
-[Insert Machine Monitoring Screenshot Here]
+<img width="1433" height="704" alt="Screenshot 2026-06-16 at 9 04 32 AM" src="https://github.com/user-attachments/assets/348e6b98-8926-42bc-bb1a-7a7f8ee28767" />
+
 
 Monitors machine status, efficiency, and power usage with real-time status updates.
 
@@ -134,7 +136,8 @@ Monitors machine status, efficiency, and power usage with real-time status updat
 
 ### 📋 Production Log Queue
 
-[Insert Production Queue Screenshot Here]
+<img width="1470" height="766" alt="Screenshot 2026-06-16 at 9 05 01 AM" src="https://github.com/user-attachments/assets/72a3155d-c5b0-460e-bc01-1cf636c8971a" />
+
 
 Implements FIFO queue management for tracking and processing production batches.
 
@@ -142,7 +145,8 @@ Implements FIFO queue management for tracking and processing production batches.
 
 ### 🔍 Equipment ID Checker
 
-[Insert Equipment ID Checker Screenshot Here]
+<img width="1409" height="627" alt="Screenshot 2026-06-16 at 9 05 31 AM" src="https://github.com/user-attachments/assets/0de2479b-5bfc-4ebd-a6c6-e1f53e3ad75f" />
+
 
 Allows instant verification of equipment IDs against the factory registry.
 
@@ -150,7 +154,7 @@ Allows instant verification of equipment IDs against the factory registry.
 
 ### ↩️ Machine Setting Undo System
 
-[Insert Machine Undo Screenshot Here]
+<img width="1418" height="695" alt="Screenshot 2026-06-16 at 9 05 48 AM" src="https://github.com/user-attachments/assets/d66343c4-d914-4fe6-8ca9-9ad6322562ec" />
 
 Tracks machine setting changes and supports undo functionality using stack logic.
 
@@ -158,7 +162,8 @@ Tracks machine setting changes and supports undo functionality using stack logic
 
 ### 📈 Market Value Sorter
 
-[Insert Market Value Sorter Screenshot Here]
+<img width="1445" height="714" alt="Screenshot 2026-06-16 at 9 06 10 AM" src="https://github.com/user-attachments/assets/5f58e56d-20c1-4a94-89f0-48271ed8562a" />
+
 
 Ranks textile batches according to industrial market value using sorting concepts.
 
@@ -166,7 +171,10 @@ Ranks textile batches according to industrial market value using sorting concept
 
 ### 🏭 Factory Map Hub
 
-[Insert Factory Map Hub Screenshot Here]
+<img width="992" height="755" alt="Screenshot 2026-06-16 at 9 06 41 AM" src="https://github.com/user-attachments/assets/64c35d21-e86e-4104-b964-2d12450dd2df" />
+
+
+<img width="1452" height="684" alt="Screenshot 2026-06-16 at 9 07 00 AM" src="https://github.com/user-attachments/assets/69292da2-4993-4e41-889e-039f3e9381b8" />
 
 Visualizes factory workflow, machine connectivity, and textile production pipeline.
 
@@ -174,7 +182,10 @@ Visualizes factory workflow, machine connectivity, and textile production pipeli
 
 ### 🚀 Quickest Processing Planner
 
-[Insert Processing Planner Screenshot Here]
+
+<img width="1434" height="686" alt="Screenshot 2026-06-16 at 9 07 47 AM" src="https://github.com/user-attachments/assets/cd235d14-c663-42fc-998b-1ea307a60cf6" />
+<img width="1469" height="773" alt="Screenshot 2026-06-16 at 9 08 00 AM" src="https://github.com/user-attachments/assets/358c7645-ee1f-4a0c-a818-1e4630d0f251" />
+
 
 Displays the most efficient processing route with minimum production time.
 
@@ -182,7 +193,11 @@ Displays the most efficient processing route with minimum production time.
 
 ### ⚡ Power Load Balancer
 
-[Insert Power Load Balancer Screenshot Here]
+<img width="1470" height="762" alt="Screenshot 2026-06-16 at 9 08 28 AM" src="https://github.com/user-attachments/assets/a788bb37-f66f-4322-98e6-4d81b5923e44" />
+
+<img width="1418" height="469" alt="Screenshot 2026-06-16 at 9 08 54 AM" src="https://github.com/user-attachments/assets/400d03cb-4d6f-46c5-8845-850f8babbb71" />
+
+
 
 Analyzes machine load distribution and recommends optimized power allocation.
 
@@ -190,7 +205,8 @@ Analyzes machine load distribution and recommends optimized power allocation.
 
 ### 📄 Footer Section
 
-[Insert Footer Screenshot Here]
+<img width="1470" height="434" alt="Screenshot 2026-06-16 at 9 09 08 AM" src="https://github.com/user-attachments/assets/557c9d2d-283a-42a4-b47a-9d3a4de16f43" />
+
 
 Displays project information, factory modules, and system overview.
 
